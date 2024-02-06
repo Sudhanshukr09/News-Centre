@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News Centre</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <header>
+            <div class="logo"><img onclick="reload()" src="logo.png" alt="Logo.."></div>
+            <div class="nav">
+                <li id="Trending" onclick="searchtrend('Trending')">Trending</li>
+                <li id="India" onclick="searchtrend('India')">India</li>
+                <li id="Finance" onclick="searchtrend('Finance')">Finance</li>
+                <li id="Politics" onclick="searchtrend  ('Politics')">Politics</li>
+            </div>
+            <div class="search">
+                <input type="text" placeholder="e.g Technology">
+                <button>Search</button>
+            </div>
+        </header>
+    </nav>
+    <div class="lble"></div>
+    <div class="main" id="container">
+    </div>
+    <template class="template">
+        <div class="content">
+            <div class="thumbnail">
+                <img src="" alt="" id="newsImg">
+            </div>
+            <h3>This is Title</h3>
+            <p class="short">End gadget 26/06/2023</p>
+            <p class="summary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae quis possimus,
+                nisi accusantium
+                placeat sed modi ad tempora.</p>
+            </div>
+        </template>
+        <script src="script.js"></script>
+    </body>
+    <footer>--------------Created by Sudhanshu Rajput--------------</footer>
+</html>
